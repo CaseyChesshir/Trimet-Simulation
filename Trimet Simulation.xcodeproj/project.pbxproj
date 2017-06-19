@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		756D7D031EF790E70046EBAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756D7D021EF790E70046EBAE /* AppDelegate.swift */; };
+		756D7D051EF790E70046EBAE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756D7D041EF790E70046EBAE /* FirstViewController.swift */; };
+		756D7D071EF790E70046EBAE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756D7D061EF790E70046EBAE /* SecondViewController.swift */; };
+		756D7D0A1EF790E70046EBAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756D7D081EF790E70046EBAE /* Main.storyboard */; };
+		756D7D0C1EF790E70046EBAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 756D7D0B1EF790E70046EBAE /* Assets.xcassets */; };
+		756D7D0F1EF790E70046EBAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756D7D0D1EF790E70046EBAE /* LaunchScreen.storyboard */; };
+		756D7D1A1EF790E80046EBAE /* Trimet_SimulationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756D7D191EF790E80046EBAE /* Trimet_SimulationTests.swift */; };
+		756D7D251EF790E80046EBAE /* Trimet_SimulationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756D7D241EF790E80046EBAE /* Trimet_SimulationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		756D7D161EF790E80046EBAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 756D7CF71EF790E70046EBAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 756D7CFE1EF790E70046EBAE;
+			remoteInfo = "Trimet Simulation";
+		};
+		756D7D211EF790E80046EBAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 756D7CF71EF790E70046EBAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 756D7CFE1EF790E70046EBAE;
+			remoteInfo = "Trimet Simulation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		756D7CFF1EF790E70046EBAE /* Trimet Simulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trimet Simulation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		756D7D021EF790E70046EBAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		756D7D041EF790E70046EBAE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		756D7D061EF790E70046EBAE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		756D7D091EF790E70046EBAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		756D7D0B1EF790E70046EBAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		756D7D0E1EF790E70046EBAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		756D7D101EF790E70046EBAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		756D7D151EF790E80046EBAE /* Trimet SimulationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trimet SimulationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		756D7D191EF790E80046EBAE /* Trimet_SimulationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trimet_SimulationTests.swift; sourceTree = "<group>"; };
+		756D7D1B1EF790E80046EBAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		756D7D201EF790E80046EBAE /* Trimet SimulationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trimet SimulationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		756D7D241EF790E80046EBAE /* Trimet_SimulationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trimet_SimulationUITests.swift; sourceTree = "<group>"; };
+		756D7D261EF790E80046EBAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		756D7CFC1EF790E70046EBAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756D7D121EF790E80046EBAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756D7D1D1EF790E80046EBAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		756D7CF61EF790E70046EBAE = {
+			isa = PBXGroup;
+			children = (
+				756D7D011EF790E70046EBAE /* Trimet Simulation */,
+				756D7D181EF790E80046EBAE /* Trimet SimulationTests */,
+				756D7D231EF790E80046EBAE /* Trimet SimulationUITests */,
+				756D7D001EF790E70046EBAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		756D7D001EF790E70046EBAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				756D7CFF1EF790E70046EBAE /* Trimet Simulation.app */,
+				756D7D151EF790E80046EBAE /* Trimet SimulationTests.xctest */,
+				756D7D201EF790E80046EBAE /* Trimet SimulationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		756D7D011EF790E70046EBAE /* Trimet Simulation */ = {
+			isa = PBXGroup;
+			children = (
+				756D7D021EF790E70046EBAE /* AppDelegate.swift */,
+				756D7D041EF790E70046EBAE /* FirstViewController.swift */,
+				756D7D061EF790E70046EBAE /* SecondViewController.swift */,
+				756D7D081EF790E70046EBAE /* Main.storyboard */,
+				756D7D0B1EF790E70046EBAE /* Assets.xcassets */,
+				756D7D0D1EF790E70046EBAE /* LaunchScreen.storyboard */,
+				756D7D101EF790E70046EBAE /* Info.plist */,
+			);
+			path = "Trimet Simulation";
+			sourceTree = "<group>";
+		};
+		756D7D181EF790E80046EBAE /* Trimet SimulationTests */ = {
+			isa = PBXGroup;
+			children = (
+				756D7D191EF790E80046EBAE /* Trimet_SimulationTests.swift */,
+				756D7D1B1EF790E80046EBAE /* Info.plist */,
+			);
+			path = "Trimet SimulationTests";
+			sourceTree = "<group>";
+		};
+		756D7D231EF790E80046EBAE /* Trimet SimulationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				756D7D241EF790E80046EBAE /* Trimet_SimulationUITests.swift */,
+				756D7D261EF790E80046EBAE /* Info.plist */,
+			);
+			path = "Trimet SimulationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		756D7CFE1EF790E70046EBAE /* Trimet Simulation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 756D7D291EF790E80046EBAE /* Build configuration list for PBXNativeTarget "Trimet Simulation" */;
+			buildPhases = (
+				756D7CFB1EF790E70046EBAE /* Sources */,
+				756D7CFC1EF790E70046EBAE /* Frameworks */,
+				756D7CFD1EF790E70046EBAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trimet Simulation";
+			productName = "Trimet Simulation";
+			productReference = 756D7CFF1EF790E70046EBAE /* Trimet Simulation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		756D7D141EF790E80046EBAE /* Trimet SimulationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 756D7D2C1EF790E80046EBAE /* Build configuration list for PBXNativeTarget "Trimet SimulationTests" */;
+			buildPhases = (
+				756D7D111EF790E80046EBAE /* Sources */,
+				756D7D121EF790E80046EBAE /* Frameworks */,
+				756D7D131EF790E80046EBAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				756D7D171EF790E80046EBAE /* PBXTargetDependency */,
+			);
+			name = "Trimet SimulationTests";
+			productName = "Trimet SimulationTests";
+			productReference = 756D7D151EF790E80046EBAE /* Trimet SimulationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		756D7D1F1EF790E80046EBAE /* Trimet SimulationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 756D7D2F1EF790E80046EBAE /* Build configuration list for PBXNativeTarget "Trimet SimulationUITests" */;
+			buildPhases = (
+				756D7D1C1EF790E80046EBAE /* Sources */,
+				756D7D1D1EF790E80046EBAE /* Frameworks */,
+				756D7D1E1EF790E80046EBAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				756D7D221EF790E80046EBAE /* PBXTargetDependency */,
+			);
+			name = "Trimet SimulationUITests";
+			productName = "Trimet SimulationUITests";
+			productReference = 756D7D201EF790E80046EBAE /* Trimet SimulationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		756D7CF71EF790E70046EBAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Chesshir Development";
+				TargetAttributes = {
+					756D7CFE1EF790E70046EBAE = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = B7C9N587BT;
+						ProvisioningStyle = Automatic;
+					};
+					756D7D141EF790E80046EBAE = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = B7C9N587BT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 756D7CFE1EF790E70046EBAE;
+					};
+					756D7D1F1EF790E80046EBAE = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = B7C9N587BT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 756D7CFE1EF790E70046EBAE;
+					};
+				};
+			};
+			buildConfigurationList = 756D7CFA1EF790E70046EBAE /* Build configuration list for PBXProject "Trimet Simulation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 756D7CF61EF790E70046EBAE;
+			productRefGroup = 756D7D001EF790E70046EBAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				756D7CFE1EF790E70046EBAE /* Trimet Simulation */,
+				756D7D141EF790E80046EBAE /* Trimet SimulationTests */,
+				756D7D1F1EF790E80046EBAE /* Trimet SimulationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		756D7CFD1EF790E70046EBAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756D7D0F1EF790E70046EBAE /* LaunchScreen.storyboard in Resources */,
+				756D7D0C1EF790E70046EBAE /* Assets.xcassets in Resources */,
+				756D7D0A1EF790E70046EBAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756D7D131EF790E80046EBAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756D7D1E1EF790E80046EBAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		756D7CFB1EF790E70046EBAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756D7D071EF790E70046EBAE /* SecondViewController.swift in Sources */,
+				756D7D031EF790E70046EBAE /* AppDelegate.swift in Sources */,
+				756D7D051EF790E70046EBAE /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756D7D111EF790E80046EBAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756D7D1A1EF790E80046EBAE /* Trimet_SimulationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756D7D1C1EF790E80046EBAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756D7D251EF790E80046EBAE /* Trimet_SimulationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		756D7D171EF790E80046EBAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 756D7CFE1EF790E70046EBAE /* Trimet Simulation */;
+			targetProxy = 756D7D161EF790E80046EBAE /* PBXContainerItemProxy */;
+		};
+		756D7D221EF790E80046EBAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 756D7CFE1EF790E70046EBAE /* Trimet Simulation */;
+			targetProxy = 756D7D211EF790E80046EBAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		756D7D081EF790E70046EBAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				756D7D091EF790E70046EBAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		756D7D0D1EF790E70046EBAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				756D7D0E1EF790E70046EBAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		756D7D271EF790E80046EBAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		756D7D281EF790E80046EBAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		756D7D2A1EF790E80046EBAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B7C9N587BT;
+				INFOPLIST_FILE = "Trimet Simulation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ChesshirDevelopment.Trimet-Simulation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		756D7D2B1EF790E80046EBAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B7C9N587BT;
+				INFOPLIST_FILE = "Trimet Simulation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ChesshirDevelopment.Trimet-Simulation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		756D7D2D1EF790E80046EBAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B7C9N587BT;
+				INFOPLIST_FILE = "Trimet SimulationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ChesshirDevelopment.Trimet-SimulationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trimet Simulation.app/Trimet Simulation";
+			};
+			name = Debug;
+		};
+		756D7D2E1EF790E80046EBAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B7C9N587BT;
+				INFOPLIST_FILE = "Trimet SimulationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ChesshirDevelopment.Trimet-SimulationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trimet Simulation.app/Trimet Simulation";
+			};
+			name = Release;
+		};
+		756D7D301EF790E80046EBAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = B7C9N587BT;
+				INFOPLIST_FILE = "Trimet SimulationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ChesshirDevelopment.Trimet-SimulationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Trimet Simulation";
+			};
+			name = Debug;
+		};
+		756D7D311EF790E80046EBAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = B7C9N587BT;
+				INFOPLIST_FILE = "Trimet SimulationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ChesshirDevelopment.Trimet-SimulationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Trimet Simulation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		756D7CFA1EF790E70046EBAE /* Build configuration list for PBXProject "Trimet Simulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756D7D271EF790E80046EBAE /* Debug */,
+				756D7D281EF790E80046EBAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		756D7D291EF790E80046EBAE /* Build configuration list for PBXNativeTarget "Trimet Simulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756D7D2A1EF790E80046EBAE /* Debug */,
+				756D7D2B1EF790E80046EBAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		756D7D2C1EF790E80046EBAE /* Build configuration list for PBXNativeTarget "Trimet SimulationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756D7D2D1EF790E80046EBAE /* Debug */,
+				756D7D2E1EF790E80046EBAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		756D7D2F1EF790E80046EBAE /* Build configuration list for PBXNativeTarget "Trimet SimulationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756D7D301EF790E80046EBAE /* Debug */,
+				756D7D311EF790E80046EBAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 756D7CF71EF790E70046EBAE /* Project object */;
+}
